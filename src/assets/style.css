@@ -1,0 +1,52 @@
+.main-card-section {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.main-card-section .card-body {
+    min-height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-card-section .card {
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.main-card-section .card-number {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.main-card-section .number {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card-section .food-type {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-card-section .food-heading {
+    font-size: 45px;
+}
+
+.main-card-section .read {
+    float: right;
+}
